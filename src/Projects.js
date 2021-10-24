@@ -8,9 +8,10 @@ function Projects({ myProjects }) {
           Project Name: {project.name}<br/>
           <a href={project.frontend}>Github Frontend</a><br/>
           <a href={project.backend}>Github Backend</a><br/>
-          <a href={project.youtube}>Video Walkthrough</a>
+          <a href={project.youtube}>Video Walkthrough</a><br/>
+          <a href="www.instagram.com/robsfeed">Instagram</a>
         </ul>
-      ))
+    ))
 
     return (
         <div>
